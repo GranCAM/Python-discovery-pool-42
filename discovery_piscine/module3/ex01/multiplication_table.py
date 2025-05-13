@@ -2,10 +2,10 @@
 
 while (True):
     try:
-        num = int(input("Enter a number \n"))
+        num = float(input("Enter a number \n"))
         iter = 0
         while (iter < 10):
-            print ("%d x %d = %d" %(iter, num, num * iter))
+            print (" %i x %i = %i" %(iter, num, num * iter))
             iter += 1
         break
     except ValueError:
