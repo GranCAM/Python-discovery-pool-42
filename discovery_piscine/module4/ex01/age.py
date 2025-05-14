@@ -6,5 +6,6 @@ while (True):
         print ("In 10 years, you'll be %d years old." %(age + 10))
         print ("In 20 years, you'll be %d years old." %(age + 20))
         print ("In 30 years, you'll be %d years old." %(age + 30))
+        break
     except ValueError:
         print("POBRE PEPE QUE ESTO NO ES UNA EDAD")

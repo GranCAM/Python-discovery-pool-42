@@ -1,4 +1,5 @@
 #! /usr/bin/env python3
+import math
 while (True):
    try:
       num = float(input ("Give me a number: "))
