@@ -2,5 +2,5 @@
 
 import sys
 
-n = len(sys.argv)
-print("Number of parameters: ", n - 1 )
+n = len(sys.argv[1])
+print("Number of parameters: ", n )
